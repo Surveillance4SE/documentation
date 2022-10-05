@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Surveillance System',
   tagline: 'Software Engeneering Project',
-  url: 'https://surveillance4se.github.io/documentation/',
-  baseUrl: '/',
+  url: 'https://surveillance4se.github.io',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

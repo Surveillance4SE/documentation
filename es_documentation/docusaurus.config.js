@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Surveillance System',
   tagline: 'Software Engeneering Project',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://surveillance4se.github.io/documentation/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

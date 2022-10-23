@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkes_documentation=self.webpackChunkes_documentation||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Group Presentation","permalink":"/documentation/blog/group-presentation"}]}')}}]);

@@ -1,0 +1,31 @@
+name: Build website
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Static Website
+        uses: actions/checkout@v2
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+        run: |
+          cd es_documentation
+          npm install
+          npm run build
+          cp -r build/* ../
+          cd ..
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email ${{ github.actor }}@users.noreply.github.com
+          git commit -am "Build HTML site"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

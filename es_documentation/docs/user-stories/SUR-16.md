@@ -25,3 +25,11 @@ Informal unit tests passed, there were problems determining how they should be f
 ## V1 
 
 Implemented on a lambda function triggered by the HDM, fetching and storing the video in Amazon S3.
+
+## V2
+
+Implemented as an ECS image, given the lambdas are not infinitely scalable.
+
+Exposes an API with a single endpoint to signal an intrusion, asks the camera for the video.
+
+The camera now is supposed to serve video when requested. The intrusion timestamp is provided by the HDM when an intrusion is detected. In this point, the IMA will call the camera asking for the video and the camera will process it. In order not to block the IMA for so long, when the clip is ready the camera will send it to another endpoint in the IMA.

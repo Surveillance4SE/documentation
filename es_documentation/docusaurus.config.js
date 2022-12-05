@@ -52,7 +52,7 @@ const config = {
         title: 'Surveillance4SE',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {

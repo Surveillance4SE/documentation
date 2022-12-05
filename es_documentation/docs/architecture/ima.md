@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introduction
 
 This system is notified when the [HDM](#) detects an intrusion.

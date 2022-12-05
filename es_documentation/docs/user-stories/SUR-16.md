@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # SUR-16 Create Video from Intrusions
 
 > As a client/sec. officer/admin I want to be able to view videos in order to review intrusion footage.

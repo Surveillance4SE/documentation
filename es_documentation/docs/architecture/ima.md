@@ -35,7 +35,7 @@ In this iteration, the [HDM](#) triggers the Intrustion Management API, which wi
 
 ![Class diagram](./ima_classes.png)
 
-The HDM sends a request of the `IntrusionDetected` class, providing the camera Id and intrusion timestamp.
+The HDM sends a request of the `IntrusionDetected` class, providing the camera Id, intrusion timestamp and the timestamp in which the alert was triggered.
 
 Then, the intrusion is stored as an `Intrusion` object with a unique Id, so it can be differenciated from the others.
 
@@ -45,4 +45,4 @@ The `VideoRequest` informs the correct camera of the start and end times and ide
 
 The flow of actions can be seen in the following flow chart.
 
-![Flow chart](./flow_chart.png)
+![Flow chart](./ima_flowchart.png)

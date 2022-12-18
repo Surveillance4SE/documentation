@@ -29,3 +29,10 @@ The documentation is automatically generated with swagger and served via the RES
 # Diagrams
 
 ![Class diagrams](./management_classes.png)
+
+# Tests
+
+The desired coverage was not attained for 2 reasons:
+
+- Reliance on AWS cognito, we did not make a set up on cognitoto allow for testing user management
+- Video testing, which is very hard to mock

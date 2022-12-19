@@ -2,7 +2,9 @@
 sidebar_position: 2
 ---
 
-# Defenition of Ready
+# User Stories
+
+## Defenition of Ready
 
 1. Must respect **INVEST**
     - Independent
@@ -15,13 +17,13 @@ sidebar_position: 2
 1. Must have an estimation of story points
 1. Must be prioritized
 
-# Defenition of Done
+## Defenition of Done
 
 1. 80% test coverage
 1. All tests must be automated and pass
 1. Documented
 1. Must meet acceptance criteria
 
-# Story Point Estimation
+## Story Point Estimation
 
 We used the [**T-Shirt Sizing Method**](https://www.c-sharpcorner.com/article/agile-story-point-estimation-techniques-t-shirt-sizing/) to estimate the user stories.

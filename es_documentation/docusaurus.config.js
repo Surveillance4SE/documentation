@@ -10,7 +10,7 @@ const config = {
   tagline: 'Surveillance System',
   url: 'https://surveillance4se.github.io',
   baseUrl: '/documentation/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 

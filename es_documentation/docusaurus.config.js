@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Surveillance System',
-  tagline: 'Software Engeneering Project',
+  title: 'SECCOM',
+  tagline: 'Surveillance System',
   url: 'https://surveillance4se.github.io',
   baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
@@ -49,7 +49,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Surveillance4SE',
+        title: 'SECCOM',
         logo: {
           alt: 'Logo',
           src: 'img/logo.png',

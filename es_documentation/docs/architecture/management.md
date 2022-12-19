@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Management API
 
 This service handles properties, cameras and user preferences.

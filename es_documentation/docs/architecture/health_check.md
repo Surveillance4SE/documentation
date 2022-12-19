@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Health Checks
 
 The health checks are implemented by hand, given the impossibility of using Route53 to monitor local components.

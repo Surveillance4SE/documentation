@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Defenition of Ready
 
 1. Must respect **INVEST**

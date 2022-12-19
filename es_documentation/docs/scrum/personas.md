@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+---
+
+
 # Administrator
 
 The administrator wants to register clients, properties, cameras and alarms.
